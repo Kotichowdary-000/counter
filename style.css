@@ -1,0 +1,43 @@
+.controls {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(2, 60px); /* 2 columns */
+  grid-template-rows: repeat(2, 60px);    /* 2 rows */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.controls button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+#counter {
+  background-color: #1f6feb;
+  pointer-events: none;
+  font-weight: 600;
+}
+
+#inc { background-color: rgb(17, 86, 17); }
+#dec { background-color: rgb(200, 30, 30); }
+#reset { background-color: gray; }
