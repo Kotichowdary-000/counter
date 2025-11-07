@@ -9,9 +9,9 @@ function updateUI() {
   counters.textContent = count;
 
   if (count > 0) {
-    counters.style.backgroundColor = 'rgb(18, 160, 18)';
+    counters.style.backgroundColor = 'rgba(9, 22, 42, 1)';
   } else if (count < 0) {
-    counters.style.backgroundColor = 'rgb(200, 30, 30)';
+    counters.style.backgroundColor = 'rgba(85, 22, 22, 1)';
   } else {
     counters.style.backgroundColor = '#1f6feb';
   }

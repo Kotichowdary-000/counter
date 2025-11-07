@@ -1,7 +1,14 @@
+body{
+    background-color: rgb(81, 63, 100);
+}
+
+h1{
+    text-decoration: underline;
+}
 .controls {
   display: grid;
   grid-template-columns: repeat(4, 60px);
-  gap: 10px;
+  gap:30px;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
@@ -12,14 +19,14 @@
   display: grid;
   grid-template-columns: repeat(2, 60px); /* 2 columns */
   grid-template-rows: repeat(2, 60px);    /* 2 rows */
-  gap: 10px;
+  gap: 80px;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .controls button {
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   border: none;
   border-radius: 8px;
   font-size: 20px;
@@ -39,5 +46,5 @@
 }
 
 #inc { background-color: rgb(17, 86, 17); }
-#dec { background-color: rgb(200, 30, 30); }
+#dec { background-color: rgb(52, 4, 57); }
 #reset { background-color: gray; }
